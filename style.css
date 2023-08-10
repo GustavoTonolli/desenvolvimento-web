@@ -8,4 +8,29 @@
 
 .header {
     background-color: #1EA896;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+li {
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 8px;
+
+}
+li:hover {
+    background-color: #4C5454;
+}
+h1 {
+    margin-left: 100px;
 }
