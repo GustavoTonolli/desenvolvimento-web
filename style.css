@@ -7,30 +7,34 @@
 }
 
 .header {
-    background-color: #1EA896;
+    background-color: #aec5eb;
     display: flex;
     justify-content: space-between;
     height: 50px;
+    align-items: center;
 
 }
 
 ul {
     display: flex;
     margin-right: 100px;
+    
 }
 
 li {
-    display: flex;
     margin: 5px;
     cursor: pointer;
     background-color: aliceblue;
-    border-radius: 15px;
-    padding: 8px;
+    border-radius: 25px;
+    padding:5px 15px 5px 15px;
+    margin-right: 25px;
 
 }
 li:hover {
-    background-color: #4C5454;
+    background-color: #3a405a;
+    color: #fff;
 }
 h1 {
-    margin-left: 100px;
+    height: auto;
+    margin-left: 80px;
 }

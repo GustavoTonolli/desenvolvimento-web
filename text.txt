@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+1 - Download dos boletos com erro (Feito)
+2 - Inserir Link no numero de documento na tela 'Historico' (Feito)
+3 - Inserir dados para alteração do UPDATE BILL.
+4 - Separar os boletos itau/bb que estao aparecendo juntos em emitidas e historico.
+5 - Adionar campo de segunda via disponivel na tela de emitidas.
+6 - Incluir Colunas de data e hora da integração na tela de Historico.
