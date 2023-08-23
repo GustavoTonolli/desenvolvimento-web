@@ -76,7 +76,7 @@ h1 {
 
 .news {
     background-color: #00798c;
-    height: 800px;
+    height: 1000px;
     width: 100%;
 }
 .title {
@@ -95,27 +95,31 @@ h3 {
     align-items: flex-end;
     vertical-align: baseline;
     justify-content: center;
+    margin: 50px;
 }
 
 #about{
-    margin: 20px;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-}
-.about {
-    height: 800px;
-    width: 100%;
-    color: white;   
-}
-#contact{
     margin: 50px;
     display: flex;
     align-items: baseline;
     justify-content: center;
 }
+.about {
+    height: 1000px;
+    width: 100%;
+    color: white;   
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact{
+    padding: 50px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
 .contact {
-    height: 800px;
+    height: 1000px;
     background-color: #edae49;
     width: 100%;
     color: white;   
@@ -124,4 +128,22 @@ footer {
     height: 400px;
     background-color: #343434;
 }
+.pink{
+    background-color: #d1495b;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+/* Span nao da pra alterar nem altura nem largura */
+span {
+    background-color: #d1495b;
+    width: 1000px;
+    height: 1000px;
+}
+strong {
+    background-color: #d1495b;
+    width: 1000px;
+    height: 1000px;
+}
+/* como posicionar objetos na tela */
 
