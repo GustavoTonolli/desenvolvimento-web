@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+  }
+
+html {
+    background-color: coral;
+}
+
+p {
+    font-size: 15px;
+
+}
+/* Selecionar varias tags para aplicar as mesmas funcionalidades */
+p, li, h2 {
+    padding: 4px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+}
+li {
+    margin-left: 40px;
+    list-style: circle;
+}
+h2 {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: solid black;
+    border-width: 5px 10px 15px 20px;
+    border-color: brown chartreuse cyan slateblue;
+    margin: 30px;
+}
+p::before {
+    content: '***';
+}
+p::after {
+    content: '+++';
+}
+
+
+
+
